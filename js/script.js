@@ -54,10 +54,10 @@ buttonPrev.addEventListener('click', () => {
       renderPokemon(searchPokemon);
     }
   });
-  
-  buttonNext.addEventListener('click', () => {
+
+buttonNext.addEventListener('click', () => {
     searchPokemon += 1;
     renderPokemon(searchPokemon);
-  });
+});
   
   renderPokemon(searchPokemon);
